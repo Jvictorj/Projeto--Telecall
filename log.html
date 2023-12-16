@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecall - Login</title>
+    <link rel="stylesheet" href="./css/log.css">
+    <link rel="shortcut icon" href="IMG/telecall_icone_p" type="image/x-icon">
+    <script src="JavaScript/fontsize.js"></script>
+</head>
+
+<body>
+
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="html/index.html"><img class="logo-telecall" src="./IMG/imagens/logo_telecall_branco_vermelho_p.png" alt="Telecall"></a>
+            </div>
+            <div class="home">
+                <ul><li><a href="index.html">Home</a></li></ul>
+            </div>
+            <div class="bem-vindo">
+                <p>BEM VINDO(A) !</p>
+                <a class="entrar-button" href="log.html">LOGIN</a>
+
+                <div class="btn-size">
+                    <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+                    <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+                </div>
+
+
+                <div class="dark" id="dark">
+                    <button><img src="IMG/icon-dark-mode.png" alt="Modo Escuro" title="Modo Escuro" ></button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="log-2">
+        <div class="bem-vindo-fundo-2">
+
+            <div class="bem-vindo-2">
+                <a href="index.html"><img src="./IMG//Icons/telecall_icone_p.png" alt="Telecall"></a>
+                <h1>Bem Vindo(a)!</h1>
+                <p>Continue conosco fazendo login em sua conta.</p>
+                <p class="ou">ou</p>
+                <a class="bem-vindo-a-2" href="cadastro.html">CADASTRE-SE</a>
+            </div>
+        </div>
+
+        <div class="login-fundo">
+            <div class="login">
+                <h1>Fazer Login</h1>
+                <form id="loginForm">
+                    <label for="login">Login :</label>
+                    <input type="text" id="Login" name="login" maxlength="6" placeholder="Digite seu login" required>
+                    <div id="mensagemLogin" class="mensagem-login"></div>
+
+                    <label for="senha">Senha :</label>
+                    <input type="password" id="Senha" name="senha" maxlength="8" placeholder="Digite sua Senha" required>
+                    <div id="mensagemSenha" class="mensagem-login"></div>
+
+
+                    <div class="checkbox">
+                       <!--<a href="redefinir.html">Esqueceu sua senha?</a>--> 
+                        <input type="checkbox" id="lembrar-senha" name="lembrar-senha" value="aceito">
+                        <label for="lembrar-senha">Lembrar Senha</label>
+                    </div>
+                    
+                    <div id="mensagemGeral" class="mensagem-login"></div>
+
+                    <div class="cadastroii">
+                        <input type="submit" value="Entrar" onclick="realizarLogin(); return false;">
+                    </div>
+
+
+                    
+                </form>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <a id="link-topo" href="#">&#9650;</a>
+    <script src="JavaScript/Darkmode.js"></script>
+    <script src="JavaScript/Login.js"></script>
+
+</body>
+
+<footer>
+    <div class="footer-fundo">
+        <div class="footer">
+            <p>Copyright © 2023 Telecall. Todos os direitos reservados.</p><br>
+            <P>Desenvolvido por: <strong>João Vitor Gomes e Paulo Alves<strong></strong> </P>
+        </div>
+    </div>
+</footer>
+
+</html>
+
+
