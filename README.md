@@ -28,3 +28,7 @@ Se você deseja contribuir para este projeto, siga as instruções abaixo:
 3. Faça commit de suas alterações: `git commit -am 'Adicionando nova funcionalidade'`
 4. Envie suas alterações para o seu fork: `git push origin minha-branch`
 5. Crie um novo pull request.
+
+## Hospedagem do Site
+
+O site está hospedado na AWS S3. Você pode acessá-lo [aqui](https://meu-bucket-telecall-joao.s3.sa-east-1.amazonaws.com/projeto-telecall-main-meu/index.html).
